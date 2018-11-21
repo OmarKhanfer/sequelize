@@ -58,6 +58,7 @@ The basic install steps are:
   - DATEONLY (=DATETIME) 
   - BOOLEAN (=NUMBER(1))
 - Index: index type is not fully managed
+  - CLOB can be a String, it will return stream object, so you have to install convert stream to text to see the CLOB data.
   
 ## Todo:
 - ENUM DataType
